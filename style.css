@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+canvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+    border: 3px solid black;
+}
+
+#playerImage,
+#layer1Image,
+#layer2Image,
+#layer3Image,
+#layer4Image,
+#layer5Image,
+#enemy_spider_big,
+#enemy_plant,
+#enemy_fly,
+#fireImg,
+#collisionImage {
+    display: none;
+}
